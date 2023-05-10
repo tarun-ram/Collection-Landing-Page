@@ -24,24 +24,24 @@ Colors:
 - Buttons, icons - green #25563f
 ******************************************/
 
-
 /**************************/
 /*     General Styles     */
 /**************************/
 * {
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
 }
 
 body,
 html {
-    width: 100%;
+	width: 100%;
 	height: 100%;
 }
 
-body, p {
-	color: #667077; 
+body,
+p {
+	color: #667077;
 	font: 400 1rem/1.625rem "Poppins", sans-serif;
 }
 
@@ -93,23 +93,23 @@ h6 {
 }
 
 .container {
-    margin: 0 auto;
-    padding: 0 15px;
+	margin: 0 auto;
+	padding: 0 15px;
 }
 
 .flex {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
 }
 
 .grid {
-    display: grid;
-    gap: 20px;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
+	display: grid;
+	gap: 20px;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
 }
 
 img {
@@ -118,7 +118,7 @@ img {
 }
 
 ul {
-    list-style-type: none;
+	list-style-type: none;
 }
 
 .li-space-lg li {
@@ -302,7 +302,6 @@ a:hover {
 	color: #25563f;
 }
 
-
 /**********************/
 /*     Navigation     */
 /**********************/
@@ -311,8 +310,8 @@ a:hover {
 	top: 26px;
 	right: 0;
 	left: 0;
-    background-color: transparent;
-    color: #ffffff;
+	background-color: transparent;
+	color: #ffffff;
 }
 
 .navbar .flex {
@@ -351,13 +350,12 @@ a:hover {
 }
 
 .navbar ul a {
-    color: #ffffff;
+	color: #ffffff;
 }
 
 .navbar ul a:hover {
-    border-bottom: 2px #ffffff solid;
+	border-bottom: 2px #ffffff solid;
 }
-
 
 /******************/
 /*     Header     */
@@ -365,7 +363,7 @@ a:hover {
 header {
 	padding-top: 13rem;
 	padding-bottom: 9rem;
-	background: linear-gradient(to bottom right, rgba(28, 54, 51, 0.7), rgba(28, 54, 51, 0.7)), url('../images/header-background.jpg') center center no-repeat;
+	background: linear-gradient(to bottom right, rgba(28, 54, 51, 0.7), rgba(28, 54, 51, 0.7)), url("../images/new-header-background.jpg") center center no-repeat;
 	background-size: cover;
 	text-align: center;
 }
@@ -384,7 +382,6 @@ header .btn-outline-lg:hover {
 	background-color: #ffffff;
 	color: #252936;
 }
-
 
 /********************/
 /*     Services     */
@@ -409,7 +406,6 @@ header .btn-outline-lg:hover {
 	margin-bottom: 3rem;
 }
 
-
 /********************/
 /*     Benefits     */
 /********************/
@@ -429,7 +425,6 @@ header .btn-outline-lg:hover {
 .benefits p {
 	margin-bottom: 1.25rem;
 }
-
 
 /******************/
 /*     Invite     */
@@ -465,11 +460,10 @@ header .btn-outline-lg:hover {
 	opacity: 0.7;
 }
 
-.invite .btn-outline-reg:hover { 
+.invite .btn-outline-reg:hover {
 	background-color: #ffffff;
 	color: #667077;
 }
-
 
 /********************/
 /*     Features     */
@@ -490,7 +484,6 @@ header .btn-outline-lg:hover {
 .features p {
 	margin-bottom: 1.25rem;
 }
-
 
 /*********************/
 /*     Customers     */
@@ -515,7 +508,6 @@ header .btn-outline-lg:hover {
 	margin-left: 2rem;
 }
 
-
 /*******************/
 /*     Contact     */
 /*******************/
@@ -536,7 +528,6 @@ header .btn-outline-lg:hover {
 .contact form {
 	text-align: left;
 }
-
 
 /******************/
 /*     Footer     */
@@ -588,25 +579,24 @@ footer .fab {
 	font-size: 2rem;
 }
 
-
 /******************************/
 /*     Back To Top Button     */
 /******************************/
 #myBtn {
-	position: fixed; 
-  	z-index: 99; 
-	bottom: 10px; 
-	right: 10px; 
-	display: none; 
+	position: fixed;
+	z-index: 99;
+	bottom: 10px;
+	right: 10px;
+	display: none;
 	width: 46px;
 	height: 46px;
-	border: none; 
-	border-radius: 50%; 
-	outline: none; 
-	background-color: #323137; 
+	border: none;
+	border-radius: 50%;
+	outline: none;
+	background-color: #323137;
 	line-height: 44px;
 	text-align: center;
-	cursor: pointer; 
+	cursor: pointer;
 }
 
 #myBtn:hover {
@@ -617,13 +607,11 @@ footer .fab {
 	width: 18px;
 }
 
-
 /*************************/
 /*     Media Queries     */
-/*************************/	
+/*************************/
 /* Min-width 992px */
 @media (min-width: 992px) {
-	
 	/* General Styles */
 	.container {
 		max-width: 1140px;
@@ -632,7 +620,7 @@ footer .fab {
 	.grid {
 		grid-template-columns: repeat(2, 1fr);
 	}
-	
+
 	.grid-3 {
 		grid-template-columns: repeat(3, 1fr);
 	}
@@ -643,7 +631,6 @@ footer .fab {
 		margin-left: auto;
 	}
 	/* end of general styles */
-
 
 	/* Navigation */
 	.navbar {
@@ -672,13 +659,12 @@ footer .fab {
 		margin-bottom: 0;
 		padding-bottom: 0;
 	}
-	
+
 	.navbar ul li:last-of-type a {
 		margin-right: 0;
 		padding-right: 0;
 	}
 	/* end of navigation */
-
 
 	/* Header */
 	header {
@@ -695,7 +681,6 @@ footer .fab {
 	}
 	/* end of header */
 
-
 	/* Services */
 	.services .p-large {
 		width: 40rem;
@@ -709,7 +694,6 @@ footer .fab {
 		margin-left: auto;
 	}
 	/* end of services */
-
 
 	/* Benefits */
 	.benefits .grid {
@@ -726,17 +710,15 @@ footer .fab {
 	}
 	/* end of benefits */
 
-
 	/* Invite */
 	.invite .text-container {
 		margin-bottom: 0;
 	}
-	
+
 	.invite .grid {
 		gap: 80px;
 	}
 	/* end of invite */
-
 
 	/* Features */
 	.features .grid {
@@ -750,13 +732,12 @@ footer .fab {
 	.features .text-container {
 		margin-bottom: 0;
 	}
-	
+
 	.features .image-container {
 		margin-left: 5rem;
 		text-align: right;
 	}
 	/* end of benefits */
-
 
 	/* Contact */
 	form {
@@ -765,7 +746,6 @@ footer .fab {
 		margin-left: auto;
 	}
 	/* end of contact */
-
 
 	/* Footer */
 	footer {
@@ -776,7 +756,7 @@ footer .fab {
 	footer ul {
 		margin-bottom: 0;
 	}
-	
+
 	footer ul {
 		text-align: center;
 	}
@@ -791,16 +771,14 @@ footer .fab {
 	}
 	/* end of footer */
 
-
 	/* Back To Top Button */
 	#myBtn {
-		bottom: 20px; 
-		right: 20px; 
+		bottom: 20px;
+		right: 20px;
 		width: 52px;
 		height: 52px;
 		line-height: 50px;
 	}
 	/* end of back To Top Button */
-
 }
 /* end of min-width 992px */
