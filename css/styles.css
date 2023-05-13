@@ -42,7 +42,7 @@ html {
 body,
 p {
 	color: #667077;
-	font: 400 1rem/1.625rem "Poppins", sans-serif;
+	font-family: "Playfair Display", serif;
 }
 
 h1 {
@@ -255,7 +255,7 @@ a:hover {
 	color: #667077;
 	font-size: 1rem;
 	line-height: 1.5rem;
-	font-family: "Poppins";
+	font-family: "Playfair Display", serif;
 	-webkit-appearance: none; /* removes inner shadow on form inputs on ios safari */
 }
 
@@ -363,7 +363,7 @@ a:hover {
 header {
 	padding-top: 13rem;
 	padding-bottom: 9rem;
-	background: linear-gradient(to bottom right, rgba(28, 54, 51, 0.7), rgba(28, 54, 51, 0.7)), url("../images/new-header-background.jpg") center center no-repeat;
+	background: linear-gradient(to right bottom, rgba(1, 1, 1, 0.4), rgba(73, 76, 97, 0.4)), url("../images/hero-background.jpg") center center no-repeat;
 	background-size: cover;
 	text-align: center;
 }
