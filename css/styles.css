@@ -1,7 +1,4 @@
-/* Description: Master CSS file */
-
-/*****************************************
-Table Of Contents:
+/* Table Of Contents
 - General Styles
 - Navigation
 - Header
@@ -14,19 +11,10 @@ Table Of Contents:
 - Footer
 - Back To Top Button
 - Media Queries
-******************************************/
+-----------------------------*/
 
-/*****************************************
-Colors:
-- Backgrounds - light gray #f9fbfe
-- Headings text, buttons - black #252936
-- Body text - dark gray #667077
-- Buttons, icons - green #25563f
-******************************************/
-
-/**************************/
-/*     General Styles     */
-/**************************/
+/* General Styles
+-----------------------------*/
 * {
 	box-sizing: border-box;
 	padding: 0;
@@ -42,7 +30,7 @@ html {
 body,
 p {
 	color: #667077;
-	font-family: "Playfair Display", serif;
+	font-family: "Be Vietnam Pro", sans-serif;
 }
 
 h1 {
@@ -255,7 +243,7 @@ a:hover {
 	color: #667077;
 	font-size: 1rem;
 	line-height: 1.5rem;
-	font-family: "Playfair Display", serif;
+	font-family: "Be Vietnam Pro", sans-serif;
 	-webkit-appearance: none; /* removes inner shadow on form inputs on ios safari */
 }
 
@@ -302,9 +290,8 @@ a:hover {
 	color: #25563f;
 }
 
-/**********************/
-/*     Navigation     */
-/**********************/
+/* Navigation
+-----------------------------*/
 .navbar {
 	position: absolute;
 	top: 26px;
@@ -357,13 +344,12 @@ a:hover {
 	border-bottom: 2px #ffffff solid;
 }
 
-/******************/
-/*     Header     */
-/******************/
+/* Header
+-----------------------------*/
 header {
 	padding-top: 13rem;
 	padding-bottom: 9rem;
-	background: linear-gradient(to right bottom, rgba(1, 1, 1, 0.4), rgba(73, 76, 97, 0.4)), url("../images/hero-background.jpg") center center no-repeat;
+	background: linear-gradient(0deg, rgba(36, 20, 0, 0.5) 0%, rgba(121, 108, 9, 0.3) 75%, rgba(227, 227, 227, 0.8) 100%), url("../images/hero-background-6588593.jpg") bottom center no-repeat;
 	background-size: cover;
 	text-align: center;
 }
@@ -383,9 +369,8 @@ header .btn-outline-lg:hover {
 	color: #252936;
 }
 
-/********************/
-/*     Services     */
-/********************/
+/* Services
+-----------------------------*/
 .services {
 	padding-top: 9rem;
 	padding-bottom: 6rem;
@@ -406,9 +391,8 @@ header .btn-outline-lg:hover {
 	margin-bottom: 3rem;
 }
 
-/********************/
-/*     Benefits     */
-/********************/
+/* Benefits
+-----------------------------*/
 .benefits {
 	padding-top: 9rem;
 	padding-bottom: 9rem;
@@ -426,9 +410,8 @@ header .btn-outline-lg:hover {
 	margin-bottom: 1.25rem;
 }
 
-/******************/
-/*     Invite     */
-/******************/
+/* Invite
+-----------------------------*/
 .invite {
 	padding-top: 9rem;
 	padding-bottom: 9rem;
@@ -465,9 +448,8 @@ header .btn-outline-lg:hover {
 	color: #667077;
 }
 
-/********************/
-/*     Features     */
-/********************/
+/* Features
+-----------------------------*/
 .features {
 	padding-top: 9rem;
 	padding-bottom: 9rem;
@@ -485,9 +467,8 @@ header .btn-outline-lg:hover {
 	margin-bottom: 1.25rem;
 }
 
-/*********************/
-/*     Customers     */
-/*********************/
+/* Customers
+-----------------------------*/
 .customers {
 	padding-top: 9rem;
 	padding-bottom: 6.5rem;
@@ -508,9 +489,8 @@ header .btn-outline-lg:hover {
 	margin-left: 2rem;
 }
 
-/*******************/
-/*     Contact     */
-/*******************/
+/* Contact
+-----------------------------*/
 .contact {
 	padding-top: 9rem;
 	padding-bottom: 9rem;
@@ -529,9 +509,8 @@ header .btn-outline-lg:hover {
 	text-align: left;
 }
 
-/******************/
-/*     Footer     */
-/******************/
+/* Contact
+-----------------------------*/
 footer {
 	padding-top: 5.5rem;
 	padding-bottom: 4.5rem;
@@ -579,9 +558,8 @@ footer .fab {
 	font-size: 2rem;
 }
 
-/******************************/
-/*     Back To Top Button     */
-/******************************/
+/* Back top button
+-----------------------------*/
 #myBtn {
 	position: fixed;
 	z-index: 99;
@@ -607,9 +585,8 @@ footer .fab {
 	width: 18px;
 }
 
-/*************************/
-/*     Media Queries     */
-/*************************/
+/* Media queries
+-----------------------------*/
 /* Min-width 992px */
 @media (min-width: 992px) {
 	/* General Styles */
@@ -668,7 +645,7 @@ footer .fab {
 
 	/* Header */
 	header {
-		padding-top: 19.5rem;
+		padding-top: 18rem;
 		padding-bottom: 18rem;
 	}
 
@@ -678,6 +655,7 @@ footer .fab {
 		margin-left: auto;
 		font-size: 4.75rem;
 		line-height: 5.75rem;
+		font-weight: 300;
 	}
 	/* end of header */
 
