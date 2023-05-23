@@ -2,8 +2,8 @@
 - General Styles
 - Navigation
 - Header
-- Services
-- Benefits
+- section1
+- section2
 - Invite
 - Features
 - Customers
@@ -30,7 +30,7 @@ html {
 body,
 p {
 	color: #667077;
-	font-family: "Be Vietnam Pro", sans-serif;
+	font-family: "Montserrat", sans-serif;
 }
 
 h1 {
@@ -243,7 +243,7 @@ a:hover {
 	color: #667077;
 	font-size: 1rem;
 	line-height: 1.5rem;
-	font-family: "Be Vietnam Pro", sans-serif;
+	font-family: "Montserrat", sans-serif;
 	-webkit-appearance: none; /* removes inner shadow on form inputs on ios safari */
 }
 
@@ -349,9 +349,9 @@ a:hover {
 header {
 	padding-top: 13rem;
 	padding-bottom: 9rem;
-	background: linear-gradient(0deg, rgba(36, 20, 0, 0.5) 0%, rgba(121, 108, 9, 0.3) 75%, rgba(227, 227, 227, 0.8) 100%), url("../images/hero-background-6588593.jpg") bottom center no-repeat;
+	background: linear-gradient(90deg, rgba(168, 140, 128, 0.4) 15%, rgba(219, 217, 217, 0.1) 100%), url("../images/hero-background-12277637.jpg") bottom center no-repeat;
 	background-size: cover;
-	text-align: center;
+	text-align: left;
 }
 
 header .h1-large {
@@ -369,44 +369,44 @@ header .btn-outline-lg:hover {
 	color: #252936;
 }
 
-/* Services
+/* section1
 -----------------------------*/
-.services {
+.section1 {
 	padding-top: 9rem;
 	padding-bottom: 6rem;
 	text-align: center;
 }
 
-.services .p-large {
+.section1 .p-large {
 	margin-bottom: 5rem;
 }
 
-.services .fas {
+.section1 .fas {
 	margin-bottom: 1.5rem;
 	color: #25563f;
 	font-size: 4.75rem;
 }
 
-.services h4 {
+.section1 h4 {
 	margin-bottom: 3rem;
 }
 
-/* Benefits
+/* section2
 -----------------------------*/
-.benefits {
+.section2 {
 	padding-top: 9rem;
 	padding-bottom: 9rem;
 }
 
-.benefits .image-container {
+.section2 .image-container {
 	margin-bottom: 3rem;
 }
 
-.benefits h2 {
+.section2 h2 {
 	margin-bottom: 1.5rem;
 }
 
-.benefits p {
+.section2 p {
 	margin-bottom: 1.25rem;
 }
 
@@ -645,48 +645,46 @@ footer .fab {
 
 	/* Header */
 	header {
-		padding-top: 18rem;
-		padding-bottom: 18rem;
+		padding-top: 12rem;
+		padding-bottom: 14rem;
 	}
 
 	header .h1-large {
 		width: 50rem;
-		margin-right: auto;
-		margin-left: auto;
-		font-size: 4.75rem;
+		font-size: 5rem;
 		line-height: 5.75rem;
-		font-weight: 300;
+		font-weight: 600;
 	}
 	/* end of header */
 
-	/* Services */
-	.services .p-large {
+	/* section1 */
+	.section1 .p-large {
 		width: 40rem;
 		margin-right: auto;
 		margin-left: auto;
 	}
 
-	.services h4 {
+	.section1 h4 {
 		width: 19rem;
 		margin-right: auto;
 		margin-left: auto;
 	}
-	/* end of services */
+	/* end of section1 */
 
-	/* Benefits */
-	.benefits .grid {
+	/* section2 */
+	.section2 .grid {
 		grid-template-columns: repeat(3, 1fr);
 	}
 
-	.benefits .grid > *:first-child {
+	.section2 .grid > *:first-child {
 		grid-column: 1 / span 2;
 	}
 
-	.benefits .image-container {
+	.section2 .image-container {
 		margin-right: 5rem;
 		margin-bottom: 0;
 	}
-	/* end of benefits */
+	/* end of section2 */
 
 	/* Invite */
 	.invite .text-container {
@@ -715,7 +713,7 @@ footer .fab {
 		margin-left: 5rem;
 		text-align: right;
 	}
-	/* end of benefits */
+	/* end of section2 */
 
 	/* Contact */
 	form {
